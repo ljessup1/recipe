@@ -1,0 +1,483 @@
+/* -------------------- IMPORTED FONTS -------------------------------------- */
+
+@import url('https://fonts.google.com/share?selection.family=Bebas%20Neue%7CMontserrat:ital,wght@0,400;0,700;1,400 ');
+
+/* -------------------- ROOT VARIABLES --------------------------------------- */
+
+html {
+    background-color: rgba(122, 191, 191, .5);
+    font-family: 'Bebas Neue - Regular';
+}
+
+h1 {
+    color: #0D0D0D;
+    font-size: 40px;
+}
+
+div {
+    text-align: left;
+    color: #EB5428;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+p {
+    color: #0D0D0D;
+}
+.detail {
+    background-color: #7ABFBF;  
+    color: #0D0D0D;
+}
+
+.times {
+    list-style-type: none;
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+    text-align: left;
+}
+
+.ingrediant {
+    text-align: right;
+    background-color: #0D0D0D;
+    color: #7ABFBF;
+}
+
+.gridcontainer {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 50px;
+    gap: 50px 100px;
+}
+
+.prep {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.timeprep {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.cook {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.timecook {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.total {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.timetotal {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.author {
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.nameauthor {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+.serving {
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.amount {
+    grid-column: 6;
+    grid-row: 2;
+}
+
+.ingrediant {
+    text-align: right;
+}
+
+.direction {
+    text-align: left;
+}
+
+.ingrediant, .direction {
+    color: #0D0D0D;
+    background-color: #F2F2F2;
+}
+
+.side {
+    background-color: #7ABFBF;
+    color: #0D0D0D;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+nav a:hover {
+    background-color: #EB5428;
+}
+
+ul {
+    text-align: left;
+}
+
+.detail {
+    bacground-color: #F2F2F2;
+}
+
+/* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
+
+@media screen (min-width: 428px) {
+    .prep {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .timeprep {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .cook {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .timecook {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .total {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .timetotal {
+        grid-column: 4;
+        grid-row: 2;
+    }
+    
+    .author {
+        grid-column: 5;
+        grid-row: 1;
+    }
+    
+    .nameauthor {
+        grid-column: 5;
+        grid-row: 2;
+    }
+    
+    .serving {
+        grid-column: 6;
+        grid-row: 1;
+    }
+    
+    .amount {
+        grid-column: 6;
+        grid-row: 2;
+    }
+    
+    .ingrediant {
+        text-align: right;
+    }
+    
+    .direction {
+        text-align: left;
+    }
+    
+    .ingrediant, .direction {
+        color: #0D0D0D;
+        background-color: #F2F2F2;
+    }
+    
+    .side {
+        background-color: #7ABFBF;
+        color: #0D0D0D;
+    }   
+    
+    .rice {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .salsa {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .guac {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .tortilla {
+        grid-column: 4;
+        grid-row: 1;
+    }
+
+    .fb {
+        grid-column: 1;
+        grid-row: 1;
+        color: #EB5428;
+    }
+    
+    .ig {
+        grid-column: 2;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    .yt {
+        grid-column: 3;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    .tt {
+        grid-column: 4;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    footer {
+        font-size: 10px;
+        background-color: #F2F2F2;
+        color:#EB5428;
+    }
+}
+
+/*-------------------- MEDIA QUERY (medium) --------------------------------*/
+
+@media screen (min-width: 834px) {
+    .prep {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .timeprep {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .cook {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .timecook {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .total {
+        grid-column: 4;
+        grid-row: 1;
+    }
+    
+    .timetotal {
+        grid-column: 4;
+        grid-row: 2;
+    }
+    
+    .author {
+        grid-column: 5;
+        grid-row: 1;
+    }
+    
+    .nameauthor {
+        grid-column: 5;
+        grid-row: 2;
+    }
+    
+    .serving {
+        grid-column: 6;
+        grid-row: 1;
+    }
+    
+    .amount {
+        grid-column: 6;
+        grid-row: 2;
+    }
+    
+    .ingrediant {
+        text-align: right;
+    }
+    
+    .direction {
+        text-align: left;
+    }
+    
+    .ingrediant, .direction {
+        color: #0D0D0D;
+        background-color: #F2F2F2;
+    }
+    
+    .side {
+        background-color: #7ABFBF;
+        color: #0D0D0D;
+    }   
+    
+    .rice {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .salsa {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .guac {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .tortilla {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .fb {
+        grid-column: 1;
+        grid-row: 1;
+        color: #EB5428;
+    }
+    
+    .ig {
+        grid-column: 2;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    .yt {
+        grid-column: 3;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    .tt {
+        grid-column: 4;
+        grid-row: 1;
+        color: #EB5428;
+    }
+    
+    footer {
+        font-size: 15px;
+        background-color: #F2F2F2;
+        color:#EB5428;
+    }
+}
+
+/*-------------------- MEDIA QUERY (large) ------------------------------------*/
+
+@media screen (min-width: 1280px) {
+    .prep {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .timeprep {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    .cook {
+        grid-column: 1;
+        grid-row: 3;
+    }
+    
+    .timecook {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .total {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    
+    .timetotal {
+        grid-column: 2;
+        grid-row: 3;
+    }
+    
+    .author {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    .nameauthor {
+        grid-column: 3;
+        grid-row: 3;
+    }
+    
+    .serving {
+        grid-column: 6;
+        grid-row: 1;
+    }
+    
+    .amount {
+        grid-column: 6;
+        grid-row: 2;
+    }
+    
+    .ingrediant {
+        text-align: right;
+    }
+    
+    .direction {
+        text-align: left;
+    }
+    
+    .ingrediant, .direction {
+        color: #0D0D0D;
+        background-color: #F2F2F2;
+    }
+    
+    .side {
+        background-color: #7ABFBF;
+        color: #0D0D0D;
+    }    
+
+    .fb {
+        grid-column: 1;
+        grid-row: 1;
+        color: #EB5428;
+    }
+    
+    .ig {
+        grid-column: 2;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    .yt {
+        grid-column: 3;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    .tt {
+        grid-column: 4;
+        grid-row: 1;
+        color: #EB5428;
+    }
+
+    footer {
+        font-size: 20px;
+        background-color: #F2F2F2;
+        color:#EB5428;
+    }
+}
