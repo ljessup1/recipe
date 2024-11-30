@@ -133,12 +133,12 @@ ul {
 }
 
 .detail {
-    bacground-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
 /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
 
-@media screen (min-width: 428px) {
+@media screen and (min-width: 428px) {
     .prep {
         grid-column: 1;
         grid-row: 1;
@@ -260,7 +260,7 @@ ul {
 
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 
-@media screen (min-width: 834px) {
+@media screen and (min-width: 834px) {
     .prep {
         grid-column: 1;
         grid-row: 1;
@@ -382,7 +382,7 @@ ul {
 
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 
-@media screen (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .prep {
         grid-column: 1;
         grid-row: 1;
