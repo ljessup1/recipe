@@ -9,6 +9,10 @@ html {
     font-family: 'Bebas Neue - Regular';
 }
 
+body {
+    background-color: #F2F2F2;
+}
+
 h1 {
     color: #0D0D0D;
     font-size: 40px;
@@ -19,6 +23,10 @@ div {
     color: #EB5428;
 }
 
+.sj {
+    color:#EB5428;
+}
+
 h2 {
     text-align: center;
     font-size: 30px;
@@ -27,6 +35,7 @@ h2 {
 p {
     color: #0D0D0D;
 }
+
 .detail {
     background-color: #7ABFBF;  
     color: #0D0D0D;
@@ -34,15 +43,15 @@ p {
 
 .times {
     list-style-type: none;
-    background-color: #0D0D0D;
-    color: #7ABFBF;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
     text-align: left;
 }
 
 .ingrediant {
     text-align: right;
-    background-color: #0D0D0D;
-    color: #7ABFBF;
+    background-color: #F2F2F2;
+    color: #0D0D0D;
 }
 
 .gridcontainer {
@@ -149,6 +158,7 @@ ul {
         top: 0;
         z-index:5;
     }
+
     nav ul {
         grid-area: hamberger;
         padding: 0;
@@ -157,14 +167,17 @@ ul {
         overflow: hidden;
         max-height: 0;
     }
+
     nav li img {
         display: none;
     }
+
     nav li a {
         display: block;
         padding: 20px;
         text-decoration: none;
     }
+
     nav label {
         cursor: pointer;
         display: inline-block;
@@ -173,13 +186,16 @@ ul {
         bottom: 5px;
         left: 30px;
     }
+
     nav span {
         display: block;
         position: relative;
-     }
+    }
+
     nav label svg {
         display: block;
     }
+
     label span:before, label span:after {
         content: '';
         display: block;
@@ -190,15 +206,17 @@ ul {
     nav input {
         display: none;
     }
+
     nav input:checked ~ ul {
         max-height: 550px;
     }
+
     nav h2 {
         visibility: hidden;
         height: 1px;
         width: 1px;
     }
-    
+
     .prep {
         grid-column: 1;
         grid-row: 1;
@@ -321,6 +339,7 @@ ul {
 /*-------------------- MEDIA QUERY (medium) --------------------------------*/
 
 @media screen and (min-width: 834px) {
+
     .prep {
         grid-column: 1;
         grid-row: 1;
@@ -443,6 +462,7 @@ ul {
 /*-------------------- MEDIA QUERY (large) ------------------------------------*/
 
 @media screen and (min-width: 1280px) {
+    
     .prep {
         grid-column: 1;
         grid-row: 1;
